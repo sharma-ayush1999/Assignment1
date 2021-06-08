@@ -1,5 +1,10 @@
 import React from "react";
+import { AddPhoneNumber } from "../components/AddPhoneNumber";
 
 export const Task3: React.FC = () => {
-  return <div>Task3</div>;
+  return (
+    <div>
+        <AddPhoneNumber />
+    </div>
+  );
 };
